@@ -18,8 +18,7 @@ Gitの基本操作を整理したい方にもおすすめです。
    - Public / Private: どちらでもOK  
    - README: 任意でチェックして作成  
 4. **Create repository** ボタンを押して完了！
-
-> 💡 ポイント：  
+  
 > - Githubのリポジトリは、**リモートリポジトリ** という。
 > - `README.md` を同時に作っておくと、最初から説明文が表示される。
 
@@ -65,8 +64,7 @@ drwxr-xr-x   4 divsawa  staff   128 10  9 23:23 .
 drwx------@ 43 divsawa  staff  1376 10  9 23:23 ..
 drwxr-xr-x  12 divsawa  staff   384 10  9 23:23 .git # ← gitの設置を確認
 -rw-r--r--   1 divsawa  staff    15 10  9 23:23 README.md
-```
-> 💡 ポイント： 
+``` 
 > - .git フォルダは Git の管理情報を保存する隠しフォルダ。
 > この中に履歴や設定などがすべて記録されている。
 > - ローカルにクローンしたリポジトリは、**ローカルリポジトリ** という。
@@ -145,4 +143,4 @@ Githubのリモートリポジトリ内のREADME.mdが変更されている。
 次の記事では、  
 GitHubでの基本操作や、ブランチを使った安全な開発の流れについて解説します👇
 
-📘 [GitHubでの基本操作とブランチの使い方（準備中）](/articles/2025-10-10_teaching-github-branch-basic)
+📘 [GitHubでの基本操作とブランチの使い方（準備中）](/articles/20251010_teaching-github-branch-basic)
