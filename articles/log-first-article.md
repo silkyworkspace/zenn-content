@@ -35,3 +35,6 @@ npx zenn preview
 const price = 100;
 console.log(price);
 ```
+## 見出し3
+画像はディレクトリ直下のimagesフォルダの中に置く
+![サンプル画像](/images/variables.png)
