@@ -20,7 +20,8 @@ Gitの基本操作を整理したい方にもおすすめです。
 4. **Create repository** ボタンを押して完了！
 
 > 💡 ポイント：  
-> `README.md` を同時に作っておくと、最初から説明文が表示される。
+> - Githubのリポジトリは、**リモートリポジトリ** という。
+> - `README.md` を同時に作っておくと、最初から説明文が表示される。
 
 ## 2. リポジトリURLをコピーする
 作成後のページで、右上の「<> Code」ボタンをクリック。
@@ -52,22 +53,23 @@ cd Desktop
 git clone git@github.com:ユーザー名/zenn-practice.git
 ```
 これで、ローカルに同名のフォルダが作成される。
-完了したら、以下のコマンドでローカルフォルダに Git が設置されているか確認。
+完了したら、以下のコマンドでローカルフォルダに Git が設置されているか確認する。
 ```bash
 cd zenn-practice
 ls -la
 ```
 `.git` というフォルダが表示されていれば、リポジトリのクローンが成功している。
 ```bash
-# gitの設置を確認
 total 8
 drwxr-xr-x   4 divsawa  staff   128 10  9 23:23 .
 drwx------@ 43 divsawa  staff  1376 10  9 23:23 ..
-drwxr-xr-x  12 divsawa  staff   384 10  9 23:23 .git
+drwxr-xr-x  12 divsawa  staff   384 10  9 23:23 .git # ← gitの設置を確認
 -rw-r--r--   1 divsawa  staff    15 10  9 23:23 README.md
 ```
-> 💡 .git フォルダは Git の管理情報を保存する隠しフォルダ。
+> 💡 ポイント： 
+> - .git フォルダは Git の管理情報を保存する隠しフォルダ。
 > この中に履歴や設定などがすべて記録されている。
+> - ローカルにクローンしたリポジトリは、**ローカルリポジトリ** という。
 
 ## 4. VSCodeで開く
 
@@ -96,7 +98,7 @@ origin  git@github.com:ユーザー名/zenn-practice.git (push)
 ```
 
 > - `origin` はリモートリポジトリのニックネーム。
-> - `(fetch)` は取得用、`(push)` は送信用のURLを意味します  
+> - `(fetch)` は取得用、`(push)` は送信用のURLを意味する。  
 > このように同じURLが2行表示されていれば、GitHubと正しく接続されている。
 
 ## 6. 変更をコミットしてGitHubに反映する
@@ -120,7 +122,7 @@ git push origin main
 ```
 
 Githubのリモートリポジトリ内のREADME.mdが変更されている。
-![リモートリポジトリに変更を反映](/images/github-modify-reademe.webp)
+![リモートリポジトリに変更を反映](/images/github-modify-readme.webp)
 
 ## 7. まとめ
 
