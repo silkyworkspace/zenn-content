@@ -18,9 +18,11 @@ Gitの基本操作を整理したい方にもおすすめです。
    - Public / Private: どちらでもOK  
    - README: 任意でチェックして作成  
 4. **Create repository** ボタンを押して完了！
-  
-> - Githubのリポジトリは、**リモートリポジトリ** という。
-> - `README.md` を同時に作っておくと、最初から説明文が表示される。
+
+:::message
+- Githubのリポジトリは、**リモートリポジトリ** という。
+- `README.md` を同時に作っておくと、最初から説明文が表示される。
+:::
 
 ## 2. リポジトリURLをコピーする
 作成後のページで、右上の「<> Code」ボタンをクリック。
@@ -65,9 +67,10 @@ drwx------@ 43 divsawa  staff  1376 10  9 23:23 ..
 drwxr-xr-x  12 divsawa  staff   384 10  9 23:23 .git # ← gitの設置を確認
 -rw-r--r--   1 divsawa  staff    15 10  9 23:23 README.md
 ``` 
-> - .git フォルダは Git の管理情報を保存する隠しフォルダ。
-> この中に履歴や設定などがすべて記録されている。
-> - ローカルにクローンしたリポジトリは、**ローカルリポジトリ** という。
+:::message
+- .git フォルダは Git の管理情報を保存する隠しフォルダ。この中に履歴や設定などがすべて記録されている。
+- ローカルにクローンしたリポジトリは、**ローカルリポジトリ** という。
+:::
 
 ## 4. VSCodeで開く
 
@@ -95,9 +98,13 @@ origin  git@github.com:ユーザー名/zenn-practice.git (fetch)
 origin  git@github.com:ユーザー名/zenn-practice.git (push)
 ```
 
-> - `origin` はリモートリポジトリのニックネーム。
-> - `(fetch)` は取得用、`(push)` は送信用のURLを意味する。  
-> このように同じURLが2行表示されていれば、GitHubと正しく接続されている。
+:::message
+- `origin` はリモートリポジトリのニックネーム。
+- `(fetch)` は取得用、`(push)` は送信用のURLを意味する。  
+- このように同じURLが2行表示されていれば、GitHubと正しく接続されている。
+:::
+
+
 
 ## 6. 変更をコミットしてGitHubに反映する
 VSCode上の「README.md」の内容に変更を加える。
@@ -143,4 +150,4 @@ Githubのリモートリポジトリ内のREADME.mdが変更されている。
 次の記事では、  
 GitHubでの基本操作や、ブランチを使った安全な開発の流れについて解説します👇
 
-📘 [GitHubでの基本操作とブランチの使い方（準備中）](/articles/20251010_teaching-github-branch-basic)
+📘 [GitHubでの基本操作とブランチの使い方](/articles/20251010_teaching-github-branch-basic)
