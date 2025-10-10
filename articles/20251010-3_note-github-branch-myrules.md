@@ -1,6 +1,6 @@
 ---
 title: "【GitHub】ブランチ名のマイルール"
-emoji: "🐈‍⬛"
+emoji: "🐈‍"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["github", "git", "開発効率化"]
 published: true
