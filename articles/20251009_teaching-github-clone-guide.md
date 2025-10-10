@@ -1,5 +1,5 @@
 ---
-title: "GitHubでリポジトリを作成してローカルにクローンする"
+title: "【GitHub】リポジトリを作成してローカルにクローンする"
 emoji: "🐈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github", "git", "beginner"]
@@ -152,4 +152,4 @@ Githubのリモートリポジトリ内のREADME.mdが変更されている。
 次の記事では、  
 GitHubでの基本操作や、ブランチを使った安全な開発の流れについて解説します👇
 
-📘 [GitHubでの基本操作とブランチの使い方](https://zenn.dev/divsawa/articles/20251010_teaching-github-branch-basic)
+📘 [【GitHub】基本操作とブランチの使い方](https://zenn.dev/divsawa/articles/20251010_teaching-github-branch-basic)

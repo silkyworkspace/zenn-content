@@ -1,5 +1,5 @@
 ---
-title: "GitHubでの基本操作とブランチの使い方"
+title: "【GitHub】基本操作とブランチの使い方"
 emoji: "🐈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github", "git", "beginner"]
@@ -86,7 +86,7 @@ git push origin feature/add-login
 
 GitHub上のリモートリポジトリで、feature/add-loginブランチの変更内容をmainブランチに取り込むことを **マージ** という。  
 マージが完了すると、mainブランチが最新のコードになる。
-📘 [GitHubのプルリクとマージ](https://zenn.dev/divsawa/articles/20251010-2_teaching-github-merge)
+📘 [【GitHub】プルリクを作成してマージする](https://zenn.dev/divsawa/articles/20251010-2_teaching-github-merge)
 
 mainブランチが最新になったら、その状態をローカルリポジトリにも反映させる。
 

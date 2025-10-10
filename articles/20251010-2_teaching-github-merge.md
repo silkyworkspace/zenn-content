@@ -1,5 +1,5 @@
 ---
-title: "GitHubのプルリクとマージ"
+title: "【GitHub】プルリクを作成してマージする"
 emoji: "🐈"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["github", "git", "beginner"]
@@ -65,4 +65,4 @@ feature/add-loginブランチで変更を push すると、GitHub上で以下の
 という流れを押さえれば、GitHub上での共同開発がスムーズに進みます。
 
 Github基本操作とブランチの使い方は以下を参考にしてください。
-📘 [GitHubでの基本操作とブランチの使い方](https://zenn.dev/divsawa/articles/20251010_teaching-github-branch-basic)
+📘 [【GitHub】基本操作とブランチの使い方](https://zenn.dev/divsawa/articles/20251010_teaching-github-branch-basic)
