@@ -86,7 +86,7 @@ git push origin feature/add-login
 
 GitHub上のリモートリポジトリで、feature/add-loginブランチの変更内容をmainブランチに取り込むことを **マージ** という。  
 マージが完了すると、mainブランチが最新のコードになる。
-📘 [GitHubのプルリクとマージ](/articles/20251010-2_teaching-github-merge)
+📘 [GitHubのプルリクとマージ](https://zenn.dev/divsawa/articles/20251010-2_teaching-github-merge)
 
 mainブランチが最新になったら、その状態をローカルリポジトリにも反映させる。
 

@@ -152,4 +152,4 @@ Githubのリモートリポジトリ内のREADME.mdが変更されている。
 次の記事では、  
 GitHubでの基本操作や、ブランチを使った安全な開発の流れについて解説します👇
 
-📘 [GitHubでの基本操作とブランチの使い方](/articles/20251010_teaching-github-branch-basic)
+📘 [GitHubでの基本操作とブランチの使い方](https://zenn.dev/divsawa/articles/20251010_teaching-github-branch-basic)
