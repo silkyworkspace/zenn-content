@@ -1,5 +1,5 @@
 ---
-title: "【Javascript】ES2023で追加されたtoSpliced()でpushもpopも卒業！非破壊メソッドで安全に配列を操作しよう"
+title: "【Javascript】toSpliced()で破壊的メソッドを置き換える"
 emoji: "🕊️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["javascript", "array", "ES2023"]
