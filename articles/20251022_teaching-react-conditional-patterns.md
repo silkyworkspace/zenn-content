@@ -2,7 +2,7 @@
 title: "Reactでよく使う条件分岐チートシート（&& / || / ?: / ?./??）"
 emoji: "📋"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [“react”, “javascript”, “frontend”, “pattern”]
+topics: ["react", "javascript", "frontend", "pattern"]
 published: true
 ---
 
