@@ -1,11 +1,11 @@
 ---
 title: "【React / GitHub】Viteで作ったReactアプリを別PCで動かすまでの流れ"
-emoji: "🏄"
+emoji: "🛩️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "vite", "github", "npm", "beginner"]
 published: true
 ---
-
+🪐
 ## はじめに
 「職場で作ったReactプロジェクトを家でも触りたい」  
 ──そんなときに便利なのが **GitHub** です。  
