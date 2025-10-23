@@ -128,7 +128,7 @@ vite-project/
 ## まとめ
 | ステップ | コマンド | 内容 |
 |------|------|------|
-| 職場PC | `git push` | まず `npm install` を実行 |
+| 職場PC | `git push` | GitHubにアップ |
 | 家PC | `git clone` | リポジトリを取得 |
 | 家PC | `npm install` | 依存ライブラリをダウンロード・復元 |
 | 家PC | `npm run dev` | 開発サーバーを起動 |
