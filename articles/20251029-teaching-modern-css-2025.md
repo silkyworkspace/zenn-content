@@ -1,6 +1,6 @@
 ---
 title: "【CSS】サラッと使いこなす！モダンCSS 8選"
-emoji: "🎨"
+emoji: "🫰🏼"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["css", "frontend", "webデザイン", "レスポンシブ", "モダンCSS"]
 published: true
