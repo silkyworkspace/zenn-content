@@ -223,6 +223,31 @@ h1 {
 ## 6. `position: sticky`（親の範囲内で固定）
 スクロールしても一定位置に固定されるけど、**親の範囲を超えない。**
 JSなしで簡単に「固定見出し」が作れます。
+```html
+<section class="section-area">
+    <h2 class="section-title">sticky要素は親の範囲を超えない</h2>
+    <div><img src="images/sample.webp" alt=""></div>
+    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<!-- 中略 --></p>
+</section>
+
+<section class="section-area next-section">
+    <h2>ここから次のセクションです</h2>
+    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。<!-- 中略 --></p>
+</section>
+```
+```css
+.section-area {
+    background-color: #ffe;
+    border: 1px solid #000;
+}
+
+.section-title {
+    background-color: #63d9e0;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+}
+```
 ![stickyの例](/images/modern-css-sticky.gif)
 📌 使い所
 - セクションタイトルを固定
